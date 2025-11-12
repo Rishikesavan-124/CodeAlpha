@@ -1,0 +1,66 @@
+========================================
+HOW TO ADD IMAGES TO YOUR MUSIC PLAYER
+========================================
+
+STEP 1: ADD YOUR IMAGE FILES
+------------------------------
+1. Copy your album art image files to this folder (images/)
+2. Supported formats: .jpg, .jpeg, .png, .gif, .webp
+3. Recommended size: 300x300 pixels or larger
+4. Square images work best (1:1 aspect ratio)
+
+STEP 2: UPDATE YOUR PLAYLIST
+------------------------------
+Open script.js and update the albumArt path for each song:
+
+Example:
+{
+    title: "My Song",
+    artist: "My Artist",
+    album: "My Album",
+    src: "songs/my-song.mp3",
+    albumArt: "images/my-image.jpg",  // Update this path
+    duration: "3:45"
+}
+
+STEP 3: NAME YOUR FILES
+------------------------------
+You can name your images anything you want, just make sure:
+- The filename matches what you put in script.js
+- Use lowercase letters and numbers (avoid spaces)
+- Keep file extensions (.jpg, .png, etc.)
+
+EXAMPLE FILE NAMES:
+- album1.jpg
+- my-song-cover.png
+- song-artwork.jpg
+- track-image.png
+
+STEP 4: TEST
+------------------------------
+1. Open index.html in your browser
+2. Check if images appear in the album art display
+3. Check if thumbnails appear in the playlist
+4. If images don't show, check:
+   - File paths are correct in script.js
+   - Images are in the images/ folder
+   - File names match exactly (case-sensitive)
+
+TIPS:
+- Use high-quality images for best results
+- Square images (1:1) work best for the circular display
+- Keep file sizes under 500KB for faster loading
+- If an image fails to load, a default placeholder will show
+
+NEED FREE IMAGES?
+------------------------------
+You can download free album art from:
+- Unsplash.com
+- Pexels.com
+- Pixabay.com
+- Or create your own!
+
+========================================
+Enjoy your music player!
+========================================
+
